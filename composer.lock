@@ -1,0 +1,126 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "3d5f27eb9afa32c4f74b796300ea594a",
+    "packages": [
+        {
+            "name": "davidalger/composer-basename-bug-case",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/davidalger/composer-basename-bug-case.git",
+                "reference": "fc5b0d6d30523523885632101bb055de670c2ec7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/davidalger/composer-basename-bug-case/zipball/fc5b0d6d30523523885632101bb055de670c2ec7",
+                "reference": "fc5b0d6d30523523885632101bb055de670c2ec7",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "description": "Reproduces the scenario causing the bug in Issue #76.",
+            "support": {
+                "source": "https://github.com/davidalger/composer-basename-bug-case/tree/master",
+                "issues": "https://github.com/davidalger/composer-basename-bug-case/issues"
+            },
+            "time": "2014-03-05 21:46:55"
+        },
+        {
+            "name": "magento-hackathon/magento-composer-installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/magento-hackathon/magento-composer-installer.git",
+                "reference": "2.0.0-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/magento-hackathon/magento-composer-installer/zipball/2.0.0-beta1",
+                "reference": "2.0.0-beta1",
+                "shasum": ""
+            },
+            "require-dev": {
+                "composer/composer": "*",
+                "mikey179/vfsstream": "*",
+                "phpunit/phpunit": "*"
+            },
+            "suggest": {
+                "magento-hackathon/composer-command-integrator": "*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "composer-command-registry": [
+                    "MagentoHackathon\\Composer\\Magento\\Command\\DeployCommand"
+                ],
+                "class": "MagentoHackathon\\Composer\\Magento\\Installer"
+            },
+            "autoload": {
+                "psr-0": {
+                    "MagentoHackathon\\Composer\\Magento": "src/"
+                }
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Fahlke aka Flyingmana",
+                    "email": "flyingmana@googlemail.com"
+                },
+                {
+                    "name": "Jörg Weller",
+                    "email": "weller@flagbit.de"
+                },
+                {
+                    "name": "Karl Spies",
+                    "email": "karl.spies@gmx.net"
+                },
+                {
+                    "name": "Tobias Vogt",
+                    "email": "tobi@webguys.de"
+                },
+                {
+                    "name": "David Fuhr",
+                    "email": "fuhr@flagbit.de"
+                },
+                {
+                    "name": "Vinai Kopp",
+                    "email": "vinai@netzarbeiter.com"
+                }
+            ],
+            "description": "Composer installer for Magento modules",
+            "homepage": "https://github.com/magento-hackathon/magento-composer-installer",
+            "keywords": [
+                "composer-installer",
+                "magento"
+            ],
+            "support": {
+                "source": "https://github.com/magento-hackathon/magento-composer-installer/tree/master",
+                "issues": "https://github.com/magento-hackathon/magento-composer-installer/issues"
+            },
+            "time": "2014-02-26 13:13:09"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "magento-hackathon/magento-composer-installer": 20,
+        "davidalger/composer-basename-bug-case": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

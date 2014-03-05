@@ -1,0 +1,22 @@
+{
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/davidalger/composer-basename-bug-case.git"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer":"dev-master",
+        "davidalger/composer-basename-bug-case":"dev-master"
+    },
+    "extra": {
+        "magento-root-dir": "htdocs/",
+        "magento-force": true,
+        "magento-deploystrategy": "copy"
+    }
+}
