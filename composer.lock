@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "3d5f27eb9afa32c4f74b796300ea594a",
+    "hash": "9a8b878a814452b67116c2ff4b3e4c24",
     "packages": [
         {
             "name": "davidalger/composer-basename-bug-case",
@@ -29,6 +29,61 @@
                 "issues": "https://github.com/davidalger/composer-basename-bug-case/issues"
             },
             "time": "2014-03-05 21:46:55"
+        },
+        {
+            "name": "fooman/googleanalyticsplus",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fooman/googleanalyticsplus.git",
+                "reference": "9f0bd5d887eb23f4eb864facd5f7c90b1cd346b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fooman/googleanalyticsplus/zipball/9f0bd5d887eb23f4eb864facd5f7c90b1cd346b8",
+                "reference": "9f0bd5d887eb23f4eb864facd5f7c90b1cd346b8",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "extra": {
+                "map": [
+                    [
+                        "/app/code/community/Fooman/GoogleAnalyticsPlus/",
+                        "/app/code/community/Fooman/GoogleAnalyticsPlus/"
+                    ],
+                    [
+                        "/app/design/frontend/base/default/layout/googleanalyticsplus.xml",
+                        "/app/design/frontend/base/default/layout/googleanalyticsplus.xml"
+                    ],
+                    [
+                        "/app/design/frontend/base/default/template/fooman/googleanalyticsplus/",
+                        "/app/design/frontend/base/default/template/fooman/googleanalyticsplus/"
+                    ],
+                    [
+                        "/app/etc/modules/Fooman_GoogleAnalyticsPlus.xml",
+                        "/app/etc/modules/Fooman_GoogleAnalyticsPlus.xml"
+                    ]
+                ]
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Kristof Ringleff",
+                    "email": "kristof@fooman.co.nz"
+                }
+            ],
+            "description": "Additional features for the default GoogleAnalytics module.",
+            "homepage": "https://github.com/fooman/googleanalyticsplus",
+            "support": {
+                "source": "https://github.com/fooman/googleanalyticsplus/tree/v0.13.15",
+                "issues": "https://github.com/fooman/googleanalyticsplus/issues"
+            },
+            "time": "2014-02-28 00:16:32"
         },
         {
             "name": "magento-hackathon/magento-composer-installer",
@@ -115,7 +170,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "magento-hackathon/magento-composer-installer": 20,
-        "davidalger/composer-basename-bug-case": 20
+        "davidalger/composer-basename-bug-case": 20,
+        "fooman/googleanalyticsplus": 20
     },
     "platform": [
 
